@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Never commit clinical images or patient-level metadata.
+data/raw/
+data/processed/
+
+# Reproducible artifacts can be released only after evaluation and review.
+models/
+*.tflite
+*.keras
+*.h5
